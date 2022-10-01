@@ -1,0 +1,16 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+foreground_1/
+foreground_2/
+foreground_3/
+input/
+subtraction/
+background_static_1.mp4
+foreground_1.mp4
+ImageSeg.class
+background_moving_2/
+background_static_1/
+background_subtraction_1/
+background_subtraction_2/
