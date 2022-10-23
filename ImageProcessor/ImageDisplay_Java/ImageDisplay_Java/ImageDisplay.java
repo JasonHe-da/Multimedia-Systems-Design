@@ -553,7 +553,7 @@ public class ImageDisplay {
 		double scaleX = Double.parseDouble(args[4]);
 		double scaleY = Double.parseDouble(args[5]);
 		int antiAlias = Integer.parseInt(args[6]);
-		ImageDisplay ren2 = new ImageDisplay();
+		ImageCompression ren2 = new ImageCompression();
 		ren2.showProcessedIms(args[0], Y, U, V, scaleX, scaleY, antiAlias);
 	}
 
