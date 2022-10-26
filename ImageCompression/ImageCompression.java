@@ -9,8 +9,8 @@ public class ImageCompression {
 	JFrame frame;
 	JLabel lbIm1;
 	BufferedImage imgOne;
-	int width = 1920; // default image width and height
-	int height = 1080;
+	int width = 512; // default image width and height
+	int height = 512;
 
 	/**
 	 * Read Image RGB
@@ -44,6 +44,9 @@ public class ImageCompression {
 					ind++;
 				}
 			}
+			
+
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -85,7 +88,9 @@ public class ImageCompression {
 	}
 
 	public static void main(String[] args) {
-		ImageDisplay ren = new ImageDisplay();
+		ImageCompression ren = new ImageCompression();
+		// int level = Integer.parseInt(args[1]);
+		// System.out.println(args[0]);
 		ren.showIms(args);
 	}
 
